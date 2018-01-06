@@ -3,7 +3,7 @@ Freeze Tag game written in Verilog to be used with any FPGA
 
 # Description:
 
-The purpose of this lab is to design a freeze tag game using the BASYS3 board, VGA monitor, and pure logic. The player controls a green 16 by 16 square using directional buttons, and is able to move anywhere in the active region, governed by 4 blue walls. If the square comes in contact with any of the walls, it will bounce off in the opposite direction, as long as the player does not ‘wallride’, by holding the corresponding directional button. The objective of the game is to tag all 8 randomly falling red rectangles within the set time. If the player wins, the borders will flash, indicating the player has won. If time runs out before the player tags all the rectangles, the game will automatically reset, and time won’t start to count down until the first rectangle has been tagged.
+The purpose of this project is to design a freeze tag game using the BASYS3 board, VGA monitor, and pure logic. The player controls a green 16 by 16 square using directional buttons, and is able to move anywhere in the active region, governed by 4 blue walls. If the square comes in contact with any of the walls, it will bounce off in the opposite direction, as long as the player does not ‘wallride’, by holding the corresponding directional button. The objective of the game is to tag all 8 randomly falling red rectangles within the set time. If the player wins, the borders will flash, indicating the player has won. If time runs out before the player tags all the rectangles, the game will automatically reset, and time won’t start to count down until the first rectangle has been tagged.
 
 # Methods:
 
